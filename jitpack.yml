@@ -1,5 +1,5 @@
 jdk:
-  - openjdk11
+  - openjdk17
 
 install:
   - ./gradlew --no-daemon --stacktrace -x reporter-web-app:yarnBuild publishToMavenLocal
