@@ -46,15 +46,15 @@ afterEvaluate{
                 from components.release
 
                 groupId = 'com.github.rhthrhrl0'
-                artifactId = 'toaster'
-                version = '0.0.3'
+                artifactId = 'mylibrary'
+                version = '0.0.4'
             }
             debug(MavenPublication) {
                 from components.debug
 
                 groupId = 'com.github.rhthrhrl0'
-                artifactId = 'toaster'
-                version = '0.0.3'
+                artifactId = 'mylibrary'
+                version = '0.0.4'
             }
         }
     }
